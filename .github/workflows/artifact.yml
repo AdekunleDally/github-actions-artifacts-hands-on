@@ -27,4 +27,7 @@ jobs:
         
     - name: Display content of hello text file
       run: cat ./artifacts/hello.txt
-    
+      
+    - name: Hello There
+      run: echo "Hello there!"
+
